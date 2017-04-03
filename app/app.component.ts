@@ -20,6 +20,8 @@ import {ROUTER_DIRECTIVES, RouteConfig, Router} from "angular2/router";
   {path: "/peliculas", name:"Peliculas", component: PeliculasListComponent, useAsDefault: true},
   {path: "/contacto", name:"Contacto", component: ContactoComponent},
   {path: "/crear-pelicula", name:"CrearPelicula", component: CrearPeliculaComponent},
+  {path: "/crear-pelicula/:titulo", name:"CrearPeliculaBasadaEnOtra", component: CrearPeliculaComponent},
+
 ])
 
 export class AppComponent{
