@@ -26,6 +26,4 @@ import {ROUTER_DIRECTIVES, RouteConfig, Router} from "angular2/router";
 
 export class AppComponent{
   public titulo:string = "Peliculas con Angular 2";
-
-
 }
